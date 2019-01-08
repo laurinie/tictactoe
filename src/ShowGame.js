@@ -18,9 +18,9 @@ class ShowGame extends React.Component {
     render() {
         return (
             <div>
-                <button onClick={()=>this.handleClick()}>Tämä on nappula</button>
-                {this.state.showGame?<Game/>:<h1>Paina nappulaa pelataksesi</h1>}
-                <H1 value={"Hieno peli, eiks je"}/>
+                {this.state.showGame?<Game/>:<h3>Paina nappulaa pelataksesi</h3>}
+                <button onClick={()=>this.handleClick()}>Ristinolla</button>
+                {this.state.showGame?<H1 value={"Hieno peli eiks je"}/>:<div/>}
             </div>
         )
     }
