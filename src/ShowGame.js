@@ -19,7 +19,7 @@ class ShowGame extends React.Component {
         return (
             <div>
                 {this.state.showGame?<Game/>:<h3>Paina nappulaa pelataksesi</h3>}
-                <button onClick={()=>this.handleClick()}>Ristinolla</button>
+                <button onClick={()=>this.handleClick()}>{this.state.showGame?"Piilota":"Ristinolla"}</button>
                 {this.state.showGame?<H1 value={"Hieno peli eiks je"}/>:<div/>}
             </div>
         )
