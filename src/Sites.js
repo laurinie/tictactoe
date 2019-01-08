@@ -9,8 +9,8 @@ class Sites extends React.Component {
     render() {
         return (
             <div>
-                <H1 value={"Otsikko"}/>
-                <h1>Otsikko</h1>
+                <H1 value={"Hieno sivu"}/> 
+                <h2>Tiedot</h2>
                 <List />
             </div>
         )
