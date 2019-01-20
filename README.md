@@ -1,3 +1,13 @@
+## Aloittaminen
+
+```git clone https://github.com/laurinie/tictactoe.git``` Tuo projektin tiedostot koneellesi
+
+```cd <tiedoston nimi>``` cd komennolla voit vaihtaa kansiota (cd .. vie edelliseen kansioon)
+
+```npm install```  asentaa kaikki tarvittavat kirjastot npm työkalulla
+
+```npm start``` testaa että kaikki toimii
+
 ## Kehitysympäristö
 ```npm start``` käynnistää [localhost serverin](localhost:3000)
 
